@@ -6,43 +6,42 @@
     <Transition
         motion:constraintSetEnd="@+id/end"
         motion:constraintSetStart="@id/start"
-        motion:duration="3000">
-       <KeyFrameSet>
-           <KeyAttribute
-               motion:motionTarget="@+id/logoImageView"
-               motion:framePosition="10"
-               android:translationY="0dp"
-               android:scaleX="1.0"
-               android:scaleY="1.0" />
-           <KeyAttribute
-               motion:motionTarget="@+id/logoImageView"
-               motion:framePosition="40"
-               android:translationY="-70dp"
-               android:scaleX="0.5"
-               android:scaleY="0.5" />
-           <KeyAttribute
-               motion:motionTarget="@+id/titleTextView"
-               motion:framePosition="40"
-               android:alpha="0.0" />
-           <KeyAttribute
-               motion:motionTarget="@+id/titleTextView"
-               motion:framePosition="60"
-               android:alpha=" 1.0" />
-           <KeyAttribute
-               motion:motionTarget="@+id/copyrightTextView"
-               motion:framePosition="60"
-               android:alpha="0.0"
-               android:translationY="0dp" />
-           <KeyAttribute
-               motion:motionTarget="@+id/copyrightTextView"
-               motion:framePosition="80"
-               android:alpha="1.0"
-               android:translationY="-2dp" />
-           <KeyAttribute
-               motion:motionTarget="@+id/logoImageView"
-               motion:framePosition="25"
-               android:translationY="-10dp" />
-       </KeyFrameSet>
+        motion:duration="5000">
+        <KeyFrameSet>
+            <KeyAttribute
+                motion:motionTarget="@+id/logoImageView"
+                motion:framePosition="10"
+                android:translationY="0dp"
+                android:scaleX="1.0"
+                android:scaleY="1.0" />
+            <KeyAttribute
+                motion:motionTarget="@+id/logoImageView"
+                motion:framePosition="40"
+                android:translationY="-70dp"
+                android:scaleX="0.5"
+                android:scaleY="0.5" />
+            <KeyAttribute
+                motion:motionTarget="@+id/titleTextView"
+                motion:framePosition="40"
+                android:alpha="0.0" />
+            <KeyAttribute
+                motion:motionTarget="@+id/titleTextView"
+                motion:framePosition="60"
+                android:alpha="1.0" />
+            <KeyAttribute
+                motion:motionTarget="@+id/copyrightTextView"
+                motion:framePosition="60"
+                android:alpha="0.0" />
+            <KeyAttribute
+                motion:motionTarget="@+id/copyrightTextView"
+                motion:framePosition="80"
+                android:alpha="1.0"
+                android:translationY="-20dp" />
+            <KeyAttribute
+                motion:motionTarget="@+id/logoImageView"
+                motion:framePosition="25"
+                android:translationY="-10dp" />
+        </KeyFrameSet>
     </Transition>
 
     <ConstraintSet android:id="@+id/start">
@@ -70,8 +69,8 @@
         <Constraint
             android:id="@+id/logoImageView"
             motion:layout_constraintEnd_toEndOf="parent"
-            android:layout_width="500dp"
-            android:layout_height="500dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
             motion:layout_constraintBottom_toBottomOf="parent"
             motion:layout_constraintTop_toTopOf="parent"
             motion:layout_constraintStart_toStartOf="parent"
