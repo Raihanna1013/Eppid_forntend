@@ -30,40 +30,40 @@
 
         <ImageButton
             android:id="@+id/cekStatus"
-            android:layout_width="105dp"
-            android:layout_height="113dp"
-            android:layout_marginTop="44dp"
-            android:layout_marginEnd="76dp"
+            android:layout_width="142dp"
+            android:layout_height="139dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="52dp"
             android:background="@drawable/cek_permohonan"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/slider" />
 
         <ImageButton
             android:id="@+id/CS"
-            android:layout_width="104dp"
-            android:layout_height="109dp"
-            android:layout_marginStart="52dp"
-            android:layout_marginTop="32dp"
+            android:layout_width="142dp"
+            android:layout_height="139dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="56dp"
             android:background="@drawable/costumerservice"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/formpermohonan" />
 
         <ImageButton
             android:id="@+id/SOP"
-            android:layout_width="102dp"
-            android:layout_height="111dp"
-            android:layout_marginTop="28dp"
-            android:layout_marginEnd="80dp"
+            android:layout_width="142dp"
+            android:layout_height="139dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="52dp"
             android:background="@drawable/menu_sop"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/cekStatus" />
 
         <ImageButton
             android:id="@+id/formpermohonan"
-            android:layout_width="106dp"
-            android:layout_height="112dp"
-            android:layout_marginStart="52dp"
-            android:layout_marginTop="48dp"
+            android:layout_width="142dp"
+            android:layout_height="139dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="64dp"
             android:background="@drawable/menu_form"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/slider" />
@@ -72,7 +72,7 @@
             android:id="@+id/textView"
             android:layout_width="228dp"
             android:layout_height="28dp"
-            android:layout_marginTop="28dp"
+            android:layout_marginTop="40dp"
             android:text="Alur Permohonan Informasi"
             android:textColor="@color/black"
             android:textSize="16dp"
@@ -107,7 +107,7 @@
             android:id="@id/info"
             android:layout_width="228dp"
             android:layout_height="28dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="40dp"
             android:text="Informasi Bawaslu"
             android:textColor="@color/black"
             android:textSize="16dp"
@@ -147,7 +147,7 @@
             android:id="@id/publik"
             android:layout_width="228dp"
             android:layout_height="28dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="40dp"
             android:text="Informasi Publik"
             android:textColor="@color/black"
             android:textSize="16dp"
